@@ -1816,11 +1816,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vitalino\\Desktop\\Step\\University\\DB_project\\DB_project\\DB_project.csproj",
+      "projectUniqueName": "C:\\Users\\Vitalino\\Desktop\\Unity\\DB_project\\DB_project\\DB_project.csproj",
       "projectName": "DB_project",
-      "projectPath": "C:\\Users\\Vitalino\\Desktop\\Step\\University\\DB_project\\DB_project\\DB_project.csproj",
+      "projectPath": "C:\\Users\\Vitalino\\Desktop\\Unity\\DB_project\\DB_project\\DB_project.csproj",
       "packagesPath": "C:\\Users\\Vitalino\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vitalino\\Desktop\\Step\\University\\DB_project\\DB_project\\obj\\",
+      "outputPath": "C:\\Users\\Vitalino\\Desktop\\Unity\\DB_project\\DB_project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vitalino\\AppData\\Roaming\\NuGet\\NuGet.Config",
