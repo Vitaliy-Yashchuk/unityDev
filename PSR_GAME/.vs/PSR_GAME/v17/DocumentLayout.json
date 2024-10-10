@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vitalino\\Desktop\\Step\\University\\PSR_GAME\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24759429-499B-4A25-84B8-51291E46BB98}|PSR_GAME\\PSR_GAME.csproj|c:\\users\\vitalino\\desktop\\step\\university\\psr_game\\psr_game\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24759429-499B-4A25-84B8-51291E46BB98}|PSR_GAME\\PSR_GAME.csproj|solutionrelative:psr_game\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24759429-499B-4A25-84B8-51291E46BB98}|PSR_GAME\\PSR_GAME.csproj|c:\\users\\vitalino\\desktop\\step\\university\\psr_game\\psr_game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24759429-499B-4A25-84B8-51291E46BB98}|PSR_GAME\\PSR_GAME.csproj|solutionrelative:psr_game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Vitalino\\Desktop\\Step\\University\\PSR_GAME\\PSR_GAME\\Player.cs",
+              "RelativeDocumentMoniker": "PSR_GAME\\Player.cs",
+              "ToolTip": "C:\\Users\\Vitalino\\Desktop\\Step\\University\\PSR_GAME\\PSR_GAME\\Player.cs",
+              "RelativeToolTip": "PSR_GAME\\Player.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:07:01.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vitalino\\Desktop\\Step\\University\\PSR_GAME\\PSR_GAME\\Program.cs",
+              "RelativeDocumentMoniker": "PSR_GAME\\Program.cs",
+              "ToolTip": "C:\\Users\\Vitalino\\Desktop\\Step\\University\\PSR_GAME\\PSR_GAME\\Program.cs",
+              "RelativeToolTip": "PSR_GAME\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T11:49:47.869Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
