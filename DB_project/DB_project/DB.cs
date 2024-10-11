@@ -90,6 +90,33 @@ namespace DB_project
                 await reader.CloseAsync();
             }
         }
+        public async Task UpdateData(string title, string text, string date, string author)
+        {
+            string sql = "UPDATE `articles` SET title=@title, text=@text, date=@date, author = @author WHERE id = 2";
+            Dictionary<string, string> parametrs = new Dictionary<string, string>();
+            parametrs.Add("title", title);
+            parametrs.Add("text", text);
+            parametrs.Add("date", date);
+            parametrs.Add("author", author);
+            await ExecuteQuery(sql, parametrs);
+        }
+        public async Task DeleteData()
+        {
+            string sql = "DELETE FROM `articles` WHERE title='Tesla'";
+            await ExecuteQuery(sql);
+        }
+        public async Task CountData()
+        {
+            string sql = "SELECT COUNT(id) FROM articles";
+            using (MySqlConnection conn = new MySqlConnection(connect))
+            {
+                await conn.OpenAsync();
+
+                MySqlCommand command = new MySqlCommand(sql, conn);
+                object? num = await command.ExecuteScalarAsync();
+                Console.WriteLine(num);
+            }
+        }
     }
     
 }
