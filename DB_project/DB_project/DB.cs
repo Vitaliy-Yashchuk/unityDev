@@ -63,6 +63,33 @@ namespace DB_project
                 await command.ExecuteNonQueryAsync();
             }
         }
+        public async Task GetData(int number)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connect))
+            {
+                await conn.OpenAsync();
+
+                MySqlCommand command = new MySqlCommand("SELECT * FROM `articles` WHERE text LIKE '%oo%' or id >=@number ",conn);
+                MySqlParameter param = new MySqlParameter($"@number", number);
+                command.Parameters.Add(param);
+                MySqlDataReader reader = (MySqlDataReader)await command.ExecuteReaderAsync();
+
+                if (reader.HasRows)
+                {
+                    while (await reader.ReadAsync()) 
+                    {
+                        object id = reader["id"];
+                        object title = reader["title"];
+                        object text = reader["text"];
+                        object date = reader["date"];
+                        object author = reader["author"];
+
+                        Console.WriteLine($"{id}. {title} - {author}");
+                    }
+                }
+                await reader.CloseAsync();
+            }
+        }
     }
     
 }
