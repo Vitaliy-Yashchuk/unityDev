@@ -13,6 +13,9 @@ namespace PingPongGame
     public partial class PingPong : Form
     {
         private int _speedVer = 5, _speedHor = 5, _platformSpeed = 45, _score = 0;
+
+       
+
         public PingPong()
         {
             InitializeComponent();
@@ -74,6 +77,13 @@ namespace PingPongGame
                 Random random = new Random();
                 GamePanel.BackColor = Color.FromArgb(random.Next(150, 255), random.Next(150, 255), random.Next(150, 255));
             }
+        }
+        private void MenuBth_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu menu = new Menu();
+            menu.ShowDialog();
+            this.Close();
         }
 
 

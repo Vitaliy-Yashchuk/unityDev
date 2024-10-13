@@ -86,3 +86,4 @@ C:\Users\Vitalino\Desktop\Unity\PingPongGame\PingPongGame\obj\Debug\PingPongGame
 C:\Users\Vitalino\Desktop\Unity\PingPongGame\PingPongGame\obj\Debug\PingPongGame.pdb
 C:\Users\Vitalino\Desktop\Unity\PingPongGame\PingPongGame\obj\Debug\PingPongGame.AuthForm.resources
 C:\Users\Vitalino\Desktop\Unity\PingPongGame\PingPongGame\obj\Debug\PingPongGame.PingPong.resources
+C:\Users\Vitalino\Desktop\Unity\PingPongGame\PingPongGame\obj\Debug\PingPongGame.Menu.resources

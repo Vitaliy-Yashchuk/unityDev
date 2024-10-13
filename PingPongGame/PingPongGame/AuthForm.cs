@@ -90,8 +90,8 @@ namespace PingPongGame
             if (countUser > 0)
             {
                 this.Hide();
-                PingPong pingPong = new PingPong();
-                pingPong.ShowDialog();
+                Menu menu = new Menu();
+                menu.ShowDialog();
                 this.Close();
             }
             else

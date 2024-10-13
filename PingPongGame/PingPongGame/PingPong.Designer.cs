@@ -35,6 +35,7 @@
             this.GamePanel = new System.Windows.Forms.Panel();
             this.LoseLabel = new System.Windows.Forms.Label();
             this.ResultLabel = new System.Windows.Forms.Label();
+            this.MenuBth = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Platform)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GameBall)).BeginInit();
             this.GamePanel.SuspendLayout();
@@ -65,6 +66,7 @@
             // 
             // GamePanel
             // 
+            this.GamePanel.Controls.Add(this.MenuBth);
             this.GamePanel.Controls.Add(this.Platform);
             this.GamePanel.Controls.Add(this.LoseLabel);
             this.GamePanel.Controls.Add(this.ResultLabel);
@@ -95,6 +97,17 @@
             this.ResultLabel.TabIndex = 2;
             this.ResultLabel.Text = "Result: 0";
             // 
+            // MenuBth
+            // 
+            this.MenuBth.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.MenuBth.Location = new System.Drawing.Point(15, 12);
+            this.MenuBth.Name = "MenuBth";
+            this.MenuBth.Size = new System.Drawing.Size(75, 27);
+            this.MenuBth.TabIndex = 4;
+            this.MenuBth.Text = "Menu";
+            this.MenuBth.UseVisualStyleBackColor = true;
+            this.MenuBth.Click += new System.EventHandler(this.MenuBth_Click);
+            // 
             // PingPong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -121,5 +134,6 @@
         private System.Windows.Forms.Panel GamePanel;
         private System.Windows.Forms.Label ResultLabel;
         private System.Windows.Forms.Label LoseLabel;
+        private System.Windows.Forms.Button MenuBth;
     }
 }
