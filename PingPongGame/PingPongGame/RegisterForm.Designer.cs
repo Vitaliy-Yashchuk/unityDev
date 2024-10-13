@@ -80,7 +80,7 @@
             this.UserEmailField.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UserEmailField.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.UserEmailField.ForeColor = System.Drawing.Color.Gray;
-            this.UserEmailField.Location = new System.Drawing.Point(42, 122);
+            this.UserEmailField.Location = new System.Drawing.Point(42, 125);
             this.UserEmailField.Name = "UserEmailField";
             this.UserEmailField.Size = new System.Drawing.Size(200, 24);
             this.UserEmailField.TabIndex = 3;

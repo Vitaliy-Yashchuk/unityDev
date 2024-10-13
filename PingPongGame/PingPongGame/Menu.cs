@@ -28,7 +28,10 @@ namespace PingPongGame
 
         private void EditBth_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            EditForm edit = new EditForm();
+            edit.ShowDialog();
+            this.Close();
         }
 
         private void ExitBth_Click(object sender, EventArgs e)
