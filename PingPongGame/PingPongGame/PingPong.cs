@@ -46,6 +46,7 @@ namespace PingPongGame
             if (GameBall.Bottom >= GamePanel.Bottom)
             {
                 timer.Enabled = false;
+                LoseLabel.Visible = true;
             }
             if (GameBall.Right >= GamePanel.Right)
             {
@@ -61,6 +62,8 @@ namespace PingPongGame
                 _speedVer *= -1;
                 _score++;
                 ResultLabel.Text = "Result:" + _score;
+                Random random = new Random();
+                GamePanel.BackColor = Color.FromArgb(random.Next(150, 255), random.Next(150, 255), random.Next(150, 255));
             }
         }
 

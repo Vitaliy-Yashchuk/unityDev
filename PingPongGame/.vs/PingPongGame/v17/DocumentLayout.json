@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{9580D6F1-ACF6-42EC-A43D-D3A4840CB433}|PingPongGame\\PingPongGame.csproj|solutionrelative:pingponggame\\pingpong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9580D6F1-ACF6-42EC-A43D-D3A4840CB433}|PingPongGame\\PingPongGame.csproj|C:\\Users\\Vitalino\\Desktop\\Unity\\PingPongGame\\pingponggame\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9580D6F1-ACF6-42EC-A43D-D3A4840CB433}|PingPongGame\\PingPongGame.csproj|solutionrelative:pingponggame\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9580D6F1-ACF6-42EC-A43D-D3A4840CB433}|PingPongGame\\PingPongGame.csproj|C:\\Users\\Vitalino\\Desktop\\Unity\\PingPongGame\\pingponggame\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9580D6F1-ACF6-42EC-A43D-D3A4840CB433}|PingPongGame\\PingPongGame.csproj|solutionrelative:pingponggame\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9580D6F1-ACF6-42EC-A43D-D3A4840CB433}|PingPongGame\\PingPongGame.csproj|C:\\Users\\Vitalino\\Desktop\\Unity\\PingPongGame\\pingponggame\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9580D6F1-ACF6-42EC-A43D-D3A4840CB433}|PingPongGame\\PingPongGame.csproj|solutionrelative:pingponggame\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9580D6F1-ACF6-42EC-A43D-D3A4840CB433}|PingPongGame\\PingPongGame.csproj|C:\\Users\\Vitalino\\Desktop\\Unity\\PingPongGame\\pingponggame\\authform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RegisterForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Vitalino\\Desktop\\Unity\\PingPongGame\\PingPongGame\\RegisterForm.cs",
               "RelativeDocumentMoniker": "PingPongGame\\RegisterForm.cs",
@@ -71,7 +71,12 @@
               "RelativeToolTip": "PingPongGame\\RegisterForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T19:25:34.119Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",
@@ -93,7 +98,7 @@
               "RelativeDocumentMoniker": "PingPongGame\\PingPong.cs",
               "ToolTip": "C:\\Users\\Vitalino\\Desktop\\Unity\\PingPongGame\\PingPongGame\\PingPong.cs",
               "RelativeToolTip": "PingPongGame\\PingPong.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAD0AAAAZAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowEEAAAB6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T13:19:38.517Z",
               "EditorCaption": ""
@@ -112,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "RegisterForm.cs",
               "DocumentMoniker": "C:\\Users\\Vitalino\\Desktop\\Unity\\PingPongGame\\PingPongGame\\RegisterForm.cs",
               "RelativeDocumentMoniker": "PingPongGame\\RegisterForm.cs",
@@ -120,7 +125,8 @@
               "RelativeToolTip": "PingPongGame\\RegisterForm.cs",
               "ViewState": "AQIAAGEAAAAAAAAAAIAwwHsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T19:29:45.015Z"
+              "WhenOpened": "2024-10-11T19:29:45.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

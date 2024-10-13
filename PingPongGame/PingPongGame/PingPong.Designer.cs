@@ -34,6 +34,7 @@
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.GamePanel = new System.Windows.Forms.Panel();
             this.ResultLabel = new System.Windows.Forms.Label();
+            this.LoseLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Platform)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GameBall)).BeginInit();
             this.GamePanel.SuspendLayout();
@@ -51,7 +52,7 @@
             // GameBall
             // 
             this.GameBall.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(177)))), ((int)(((byte)(84)))));
-            this.GameBall.Location = new System.Drawing.Point(360, 213);
+            this.GameBall.Location = new System.Drawing.Point(159, 182);
             this.GameBall.Name = "GameBall";
             this.GameBall.Size = new System.Drawing.Size(50, 50);
             this.GameBall.TabIndex = 1;
@@ -64,6 +65,7 @@
             // 
             // GamePanel
             // 
+            this.GamePanel.Controls.Add(this.LoseLabel);
             this.GamePanel.Controls.Add(this.ResultLabel);
             this.GamePanel.Controls.Add(this.GameBall);
             this.GamePanel.Location = new System.Drawing.Point(-3, 0);
@@ -80,6 +82,17 @@
             this.ResultLabel.Size = new System.Drawing.Size(103, 28);
             this.ResultLabel.TabIndex = 2;
             this.ResultLabel.Text = "Result: 0";
+            // 
+            // LoseLabel
+            // 
+            this.LoseLabel.AutoSize = true;
+            this.LoseLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LoseLabel.Location = new System.Drawing.Point(320, 201);
+            this.LoseLabel.Name = "LoseLabel";
+            this.LoseLabel.Size = new System.Drawing.Size(176, 31);
+            this.LoseLabel.TabIndex = 3;
+            this.LoseLabel.Text = "Game over !!!";
+            this.LoseLabel.Visible = false;
             // 
             // PingPong
             // 
@@ -107,5 +120,6 @@
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.Panel GamePanel;
         private System.Windows.Forms.Label ResultLabel;
+        private System.Windows.Forms.Label LoseLabel;
     }
 }
