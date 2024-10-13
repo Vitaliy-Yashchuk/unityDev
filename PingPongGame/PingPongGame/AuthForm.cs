@@ -89,7 +89,10 @@ namespace PingPongGame
             int countUser = Convert.ToInt32(command.ExecuteScalar());
             if (countUser > 0)
             {
-                MessageBox.Show("User exists");
+                this.Hide();
+                PingPong pingPong = new PingPong();
+                pingPong.ShowDialog();
+                this.Close();
             }
             else
             {
