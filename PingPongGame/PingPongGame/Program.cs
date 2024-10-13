@@ -16,7 +16,8 @@ namespace PingPongGame
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RegisterForm());
+            //Application.Run(new RegisterForm());
+            Application.Run(new AuthForm());
         }
     }
 }

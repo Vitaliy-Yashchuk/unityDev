@@ -20,19 +20,26 @@ namespace PingPongGame
             UserLoginField.Text = "Enter Login";
             UserEmailField.Text = "Enter Email";
             UserPasswordField.Text = "Enter Password";
+            this.Text = "Registration in program";
         }
         private void TextBox_Enter(object sender, EventArgs e)
         {
             if(((TextBox)sender).Name == "UserLoginField" && UserLoginField.Text.Trim() == "Enter Login")
             {
                 UserLoginField.Text = "";
-            }if(((TextBox)sender).Name == "UserEmailField" && UserEmailField.Text.Trim() == "Enter Email")
+                
+                UserLoginField.ForeColor = Color.White;
+            }
+            if(((TextBox)sender).Name == "UserEmailField" && UserEmailField.Text.Trim() == "Enter Email")
             {
                 UserEmailField.Text = "";
-            }if(((TextBox)sender).Name == "UserPasswordField" && UserPasswordField.Text.Trim() == "Enter Password")
+                UserEmailField.ForeColor = Color.White;
+            }
+            if(((TextBox)sender).Name == "UserPasswordField" && UserPasswordField.Text.Trim() == "Enter Password")
             {
                 UserPasswordField.Text = "";
                 UserPasswordField.UseSystemPasswordChar = true;
+                UserPasswordField.ForeColor = Color.White;
             }
         }
 
@@ -41,15 +48,18 @@ namespace PingPongGame
             if (((TextBox)sender).Name == "UserLoginField" && UserLoginField.Text.Trim() == "")
             {
                 UserLoginField.Text = "Enter Login";
+                UserLoginField.ForeColor = Color.Gray;
             }
             if (((TextBox)sender).Name == "UserEmailField" && UserEmailField.Text.Trim() == "")
             {
                 UserEmailField.Text = "Enter Email";
+                UserEmailField.ForeColor = Color.Gray;
             }
             if (((TextBox)sender).Name == "UserPasswordField" && UserPasswordField.Text.Trim() == "")
             {
                 UserPasswordField.Text = "Enter Password";
                 UserPasswordField.UseSystemPasswordChar = false;
+                UserPasswordField.ForeColor = Color.Gray;
             }
         }
 
@@ -101,6 +111,19 @@ namespace PingPongGame
                 var hash = sha1.ComputeHash(temp);
                 return Convert.ToBase64String(hash);
             }
+        }
+
+        private void RegisterForm_Load(object sender, EventArgs e)
+        {
+            this.ActiveControl = label1;
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            AuthForm authForm = new AuthForm();
+            authForm.ShowDialog();
+            this.Close();
         }
     }
 }
