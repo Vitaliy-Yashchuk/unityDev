@@ -60,6 +60,7 @@ namespace PingPongGame
             {
                 _speedVer *= -1;
                 _score++;
+                ResultLabel.Text = "Result:" + _score;
             }
         }
 

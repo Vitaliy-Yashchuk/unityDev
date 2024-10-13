@@ -33,6 +33,7 @@
             this.GameBall = new System.Windows.Forms.PictureBox();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.GamePanel = new System.Windows.Forms.Panel();
+            this.ResultLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Platform)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GameBall)).BeginInit();
             this.GamePanel.SuspendLayout();
@@ -63,11 +64,22 @@
             // 
             // GamePanel
             // 
+            this.GamePanel.Controls.Add(this.ResultLabel);
             this.GamePanel.Controls.Add(this.GameBall);
             this.GamePanel.Location = new System.Drawing.Point(-3, 0);
             this.GamePanel.Name = "GamePanel";
             this.GamePanel.Size = new System.Drawing.Size(805, 455);
             this.GamePanel.TabIndex = 2;
+            // 
+            // ResultLabel
+            // 
+            this.ResultLabel.AutoSize = true;
+            this.ResultLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ResultLabel.Location = new System.Drawing.Point(688, 35);
+            this.ResultLabel.Name = "ResultLabel";
+            this.ResultLabel.Size = new System.Drawing.Size(103, 28);
+            this.ResultLabel.TabIndex = 2;
+            this.ResultLabel.Text = "Result: 0";
             // 
             // PingPong
             // 
@@ -83,6 +95,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Platform)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GameBall)).EndInit();
             this.GamePanel.ResumeLayout(false);
+            this.GamePanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -93,5 +106,6 @@
         private System.Windows.Forms.PictureBox GameBall;
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.Panel GamePanel;
+        private System.Windows.Forms.Label ResultLabel;
     }
 }
