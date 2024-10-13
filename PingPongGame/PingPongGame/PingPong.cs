@@ -32,6 +32,15 @@ namespace PingPongGame
             }else if ((e.KeyCode == Keys.D  || e.KeyCode == Keys.Right) && Platform.Right < GamePanel.Right)
             {
                 Platform.Left += _platformSpeed;
+            }else if (e.KeyCode == Keys.R && !timer.Enabled)
+            {
+                Random rand = new Random();
+                GameBall.Top = rand.Next(20,200);
+                GameBall.Left = rand.Next(20, 500);
+                _score = 0;
+                LoseLabel.Visible = false;
+                ResultLabel.Text = "Result: 0";
+                timer.Enabled = true;
             }
         }
 

@@ -33,8 +33,8 @@
             this.GameBall = new System.Windows.Forms.PictureBox();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.GamePanel = new System.Windows.Forms.Panel();
-            this.ResultLabel = new System.Windows.Forms.Label();
             this.LoseLabel = new System.Windows.Forms.Label();
+            this.ResultLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Platform)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GameBall)).BeginInit();
             this.GamePanel.SuspendLayout();
@@ -43,7 +43,7 @@
             // Platform
             // 
             this.Platform.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(105)))), ((int)(((byte)(70)))));
-            this.Platform.Location = new System.Drawing.Point(277, 398);
+            this.Platform.Location = new System.Drawing.Point(272, 424);
             this.Platform.Name = "Platform";
             this.Platform.Size = new System.Drawing.Size(268, 28);
             this.Platform.TabIndex = 0;
@@ -65,6 +65,7 @@
             // 
             // GamePanel
             // 
+            this.GamePanel.Controls.Add(this.Platform);
             this.GamePanel.Controls.Add(this.LoseLabel);
             this.GamePanel.Controls.Add(this.ResultLabel);
             this.GamePanel.Controls.Add(this.GameBall);
@@ -72,16 +73,6 @@
             this.GamePanel.Name = "GamePanel";
             this.GamePanel.Size = new System.Drawing.Size(805, 455);
             this.GamePanel.TabIndex = 2;
-            // 
-            // ResultLabel
-            // 
-            this.ResultLabel.AutoSize = true;
-            this.ResultLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ResultLabel.Location = new System.Drawing.Point(688, 35);
-            this.ResultLabel.Name = "ResultLabel";
-            this.ResultLabel.Size = new System.Drawing.Size(103, 28);
-            this.ResultLabel.TabIndex = 2;
-            this.ResultLabel.Text = "Result: 0";
             // 
             // LoseLabel
             // 
@@ -94,12 +85,21 @@
             this.LoseLabel.Text = "Game over !!!";
             this.LoseLabel.Visible = false;
             // 
+            // ResultLabel
+            // 
+            this.ResultLabel.AutoSize = true;
+            this.ResultLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ResultLabel.Location = new System.Drawing.Point(688, 35);
+            this.ResultLabel.Name = "ResultLabel";
+            this.ResultLabel.Size = new System.Drawing.Size(103, 28);
+            this.ResultLabel.TabIndex = 2;
+            this.ResultLabel.Text = "Result: 0";
+            // 
             // PingPong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Platform);
             this.Controls.Add(this.GamePanel);
             this.Name = "PingPong";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
